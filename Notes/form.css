@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),
+         url("/fonts/roboto.woff2") format("woff2"),
+         url("/fonts/roboto.woff") format("woff");
+  }
+  
+  body {
+    background: rgb(165, 189, 196);
+    font-family: "Roboto", "Arial", sans-serif;
+    margin: 10px;
+  }
+
+div  {
+    margin: 15px;
+    margin-top: 45px;
+  }
+
+  .select {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+  }
